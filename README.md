@@ -6,7 +6,7 @@ Exploratory data analysis in Python investigating Super Bowl game outcomes, TV v
 
 ```text
 python-projects/
-├── tv data.py         # Super Bowl, TV ratings, and halftime show analysis
+├── super_bowl_tv_analysis.py         # Super Bowl, TV ratings, and halftime show analysis
 ├── requirements.txt   # Python dependencies
 ├── LICENSE
 └── README.md
@@ -27,7 +27,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-> **Note:** `tv data.py` expects CSV datasets under `datasets/` (`super_bowls.csv`, `tv.csv`, `halftime_musicians.csv`).
+> **Note:** `super_bowl_tv_analysis.py` expects CSV datasets under `datasets/` (`super_bowls.csv`, `tv.csv`, `halftime_musicians.csv`).
 
 ## License
 
